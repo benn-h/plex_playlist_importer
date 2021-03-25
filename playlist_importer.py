@@ -15,7 +15,6 @@ NEEDS
         what is already there.
 
 Run from terminal on teh same maching that plex server is running on, passing the .m3u path as an arg.
-
 """
 
 parser = argparse.ArgumentParser()
@@ -27,7 +26,7 @@ if not args.plist.endswith('.m3u'):
     sys.exit()
 
 # You will need to add your acount name here
-ACCOUNT_NAME = ''
+ACCOUNT_NAME = 'add account name here'
 
 # Modify list to be the path to your com.plexapp.plugins.library.db file
 # The follwing is where I found it on Ubuntu 18
